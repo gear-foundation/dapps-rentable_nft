@@ -45,7 +45,6 @@ test: deps
 	@echo ⚙️ Running unit tests...
 	@cargo +nightly t
 
-
 full-test:
 	@echo ⚙️ Running all tests...
 	@cargo +nightly t -Fbinary-vendor -- --include-ignored --test-threads=1

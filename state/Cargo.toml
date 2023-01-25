@@ -10,4 +10,4 @@ nft-io = { path = "../io" }
 gear-lib = { git = "https://github.com/gear-dapps/gear-lib.git", tag = "0.3.4" }
 
 [build-dependencies]
-gear-wasm-builder = { git = "https://github.com/gear-tech/gear", features = ["metawasm"] }
+gear-wasm-builder = { git = "https://github.com/gear-tech/gear", features = ["metawasm"], branch = "stable" }
