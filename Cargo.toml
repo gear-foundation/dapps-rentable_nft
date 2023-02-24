@@ -5,26 +5,28 @@ authors = ["Gear Technologies"]
 edition = "2021"
 
 [dependencies]
-gstd = { git = "https://github.com/gear-tech/gear.git", branch = "stable" }
+gstd = { git = "https://github.com/gear-tech/gear.git", branch = "testnet" }
 primitive-types = { version = "0.12.1", default-features = false }
 nft-io = { path = "io" }
-gear-lib = { git = "https://github.com/gear-dapps/gear-lib.git", tag = "0.3.4" }
-gear-lib-derive = { git = "https://github.com/gear-dapps/gear-lib.git", tag = "0.3.4" }
+# TODO! After merge new-testnet to master change branch to master (or new tag)
+gear-lib = { git = "https://github.com/gear-dapps/gear-lib.git", branch = "new-testnet" }
+gear-lib-derive = { git = "https://github.com/gear-dapps/gear-lib.git", branch = "new-testnet" }
+
 sp-core-hashing = { version = "6.0.0", default-features = false }
 hashbrown = "0.13.1"
-gmeta = { git = "https://github.com/gear-tech/gear", branch = "stable" }
+gmeta = { git = "https://github.com/gear-tech/gear", branch = "testnet" }
 
 [dev-dependencies]
-gstd = { git = "https://github.com/gear-tech/gear.git", features = ["debug"], branch = "stable" }
-gtest = { git = "https://github.com/gear-tech/gear.git", branch = "stable" }
+gstd = { git = "https://github.com/gear-tech/gear.git", features = ["debug"], branch = "testnet" }
+gtest = { git = "https://github.com/gear-tech/gear.git", branch = "testnet" }
 hex-literal = "0.3.4"
 sp-core = { git = "https://github.com/gear-tech/substrate.git", branch = "gear-stable" }
-gclient = { git = "https://github.com/gear-tech/gear.git", branch = "master" }
+gclient = { git = "https://github.com/gear-tech/gear.git", branch = "testnet" }
 tokio = { version = "1.23.0", features = ["full"] }
 blake2-rfc = { version = "0.2.18", default-features = false }
 
 [build-dependencies]
-gear-wasm-builder = { git = "https://github.com/gear-tech/gear.git", branch = "stable" }
+gear-wasm-builder = { git = "https://github.com/gear-tech/gear.git", branch = "testnet" }
 nft-io = { path = "io" }
 
 [features]
