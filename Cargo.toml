@@ -20,9 +20,10 @@ gstd = { git = "https://github.com/gear-tech/gear.git", features = ["debug"], br
 gtest = { git = "https://github.com/gear-tech/gear.git", branch = "testnet" }
 hex-literal = "0.3.4"
 sp-core = { git = "https://github.com/gear-tech/substrate.git", branch = "gear-stable" }
-gclient = { git = "https://github.com/gear-tech/gear.git", branch = "testnet" }
-tokio = { version = "1.23.0", features = ["full"] }
 blake2-rfc = { version = "0.2.18", default-features = false }
+# TODO! Uncomment after fix gclient pipeline
+#gclient = { git = "https://github.com/gear-tech/gear.git", branch = "testnet" }
+#tokio = { version = "1.23.0", features = ["full"] }
 
 [build-dependencies]
 gear-wasm-builder = { git = "https://github.com/gear-tech/gear.git", branch = "testnet" }
