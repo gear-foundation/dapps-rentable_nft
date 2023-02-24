@@ -8,9 +8,8 @@ edition = "2021"
 gstd = { git = "https://github.com/gear-tech/gear.git", branch = "testnet" }
 primitive-types = { version = "0.12.1", default-features = false }
 nft-io = { path = "io" }
-# TODO! After merge new-testnet to master change branch to master (or new tag)
-gear-lib = { git = "https://github.com/gear-dapps/gear-lib.git", branch = "new-testnet" }
-gear-lib-derive = { git = "https://github.com/gear-dapps/gear-lib.git", branch = "new-testnet" }
+gear-lib = { git = "https://github.com/gear-dapps/gear-lib.git" }
+gear-lib-derive = { git = "https://github.com/gear-dapps/gear-lib.git" }
 
 sp-core-hashing = { version = "6.0.0", default-features = false }
 hashbrown = "0.13.1"
