@@ -18,7 +18,7 @@ gmeta = { git = "https://github.com/gear-tech/gear", rev = "5c685d0f15c412ab6ee0
 [dev-dependencies]
 gstd = { git = "https://github.com/gear-tech/gear.git", features = ["debug"], rev = "5c685d0f15c412ab6ee019ceaf7ce084426dfb68" }
 gtest = { git = "https://github.com/gear-tech/gear.git", rev = "5c685d0f15c412ab6ee019ceaf7ce084426dfb68" }
-hex-literal = "0.3.4"
+hex-literal = "0.4.1"
 sp-core = { git = "https://github.com/gear-tech/substrate.git", rev = "36699c4478ce8ae05517bb42a1b115403313e083" }
 blake2-rfc = { version = "0.2.18", default-features = false }
 # TODO! Uncomment after fix gclient pipeline
