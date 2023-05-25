@@ -1155,8 +1155,8 @@ dependencies = [
 
 [[package]]
 name = "gear-lib-derive"
-version = "0.3.6"
-source = "git+https://github.com/gear-dapps/gear-lib.git?tag=0.3.6#113c331608188a0669537ff9fb9a7e4b229d3f36"
+version = "0.3.7"
+source = "git+https://github.com/gear-dapps/gear-lib.git?tag=0.3.7#b704300957a165e2f4408488a0f7857e438131f0"
 dependencies = [
  "gear-lib-macros",
  "proc-macro2",
@@ -1166,8 +1166,8 @@ dependencies = [
 
 [[package]]
 name = "gear-lib-macros"
-version = "0.3.6"
-source = "git+https://github.com/gear-dapps/gear-lib.git?tag=0.3.6#113c331608188a0669537ff9fb9a7e4b229d3f36"
+version = "0.3.7"
+source = "git+https://github.com/gear-dapps/gear-lib.git?tag=0.3.7#b704300957a165e2f4408488a0f7857e438131f0"
 
 [[package]]
 name = "gear-lib-sr25519"
@@ -4059,7 +4059,7 @@ checksum = "97fee6b57c6a41524a810daee9286c02d7752c4253064d0b05472833a438f675"
 dependencies = [
  "cfg-if",
  "digest 0.10.6",
- "rand 0.8.5",
+ "rand 0.7.3",
  "static_assertions",
 ]
 
